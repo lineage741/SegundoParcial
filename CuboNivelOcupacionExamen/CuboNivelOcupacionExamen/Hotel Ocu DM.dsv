@@ -1,0 +1,144 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="223592e4-4d1e-41fa-82d5-d68658dff0b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hotel Ocu DM</ID>
+  <Name>Hotel Ocu DM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Hotel Ocu DM</DataSourceID>
+  <Schema>
+    <xs:schema id="Hotel_x0020_Ocu_x0020_DM" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Hotel_x0020_Ocu_x0020_DM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="d0e25e93-76d0-46c2-8953-2ea977803e6c">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Ocupacion_DimHotel" msprop:design-time-name="4783089c-647d-4831-b96e-4e146508049b" msprop:DbTableName="DimHotel" msprop:FriendlyName="DimHotel" msprop:DbSchemaName="Ocupacion" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_dimHotel" msprop:design-time-name="79819f5c-0944-41d2-9e0b-075c096e2de2" msprop:DbColumnName="id_dimHotel" msprop:FriendlyName="id_dimHotel" type="xs:int" />
+                  <xs:element name="nombreHotel" msprop:design-time-name="36d5676f-18d5-47c8-ab2e-b4c1c3dd77ce" msprop:DbColumnName="nombreHotel" msprop:FriendlyName="nombreHotel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="85" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nombreArea" msprop:design-time-name="56aee2ee-5d12-4466-86da-46e20d31d379" msprop:DbColumnName="nombreArea" msprop:FriendlyName="nombreArea" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="125" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nombreTipoHab" msprop:design-time-name="0da8ebdf-cf88-4b17-a9bc-598831ee91a9" msprop:DbColumnName="nombreTipoHab" msprop:FriendlyName="nombreTipoHab" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="125" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="numeroHab" msprop:design-time-name="8499328c-0319-44be-bdef-63d87be9736c" msprop:DbColumnName="numeroHab" msprop:FriendlyName="numeroHab" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="125" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Ocupacion_DimHuesped" msprop:design-time-name="e3ec0b10-30cd-4685-b793-2076bd8190f2" msprop:DbTableName="DimHuesped" msprop:FriendlyName="DimHuesped" msprop:DbSchemaName="Ocupacion" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_dimhuesped" msprop:design-time-name="0d65e5c5-3e5d-4fbd-8d28-02921e11d8f0" msprop:DbColumnName="id_dimhuesped" msprop:FriendlyName="id_dimhuesped" type="xs:int" />
+                  <xs:element name="nombre" msprop:design-time-name="3368aa03-faac-45c3-8502-f11cfc51ef85" msprop:DbColumnName="nombre" msprop:FriendlyName="nombre" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="85" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="genero" msprop:design-time-name="c5290a12-77b9-40de-a3e9-a87de84ab8d9" msprop:DbColumnName="genero" msprop:FriendlyName="genero" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="edad" msprop:design-time-name="433365ef-13a4-43fb-b419-cc6f98764757" msprop:DbColumnName="edad" msprop:FriendlyName="edad" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Ocupacion_Fac_TH" msprop:design-time-name="9e71ab13-45e2-4c8d-9891-113164b179c5" msprop:DbTableName="Fac_TH" msprop:FriendlyName="Fac_TH" msprop:DbSchemaName="Ocupacion" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_hotel" msprop:design-time-name="bea59928-097f-49aa-b39a-2730155c445a" msprop:DbColumnName="id_hotel" msprop:FriendlyName="id_hotel" type="xs:int" />
+                  <xs:element name="id_huesped" msprop:design-time-name="6f1f6310-e213-424c-b806-dddda23dbc8d" msprop:DbColumnName="id_huesped" msprop:FriendlyName="id_huesped" type="xs:int" />
+                  <xs:element name="cantDiasOcupado" msprop:design-time-name="e3d7043f-e0e5-4085-bf0b-50da2b5abc67" msprop:DbColumnName="cantDiasOcupado" msprop:FriendlyName="cantDiasOcupado" type="xs:int" minOccurs="0" />
+                  <xs:element name="cantDiasTotal" msprop:design-time-name="83f7d358-87da-4386-b4be-c3220698711d" msprop:DbColumnName="cantDiasTotal" msprop:FriendlyName="cantDiasTotal" type="xs:int" minOccurs="0" />
+                  <xs:element name="costo" msprop:design-time-name="b370e177-1fdd-4225-9ec6-674be9cf80fd" msprop:DbColumnName="costo" msprop:FriendlyName="costo" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ingreso" msprop:design-time-name="019d0a86-ab3a-4d61-96dc-982f5681ccdf" msprop:DbColumnName="ingreso" msprop:FriendlyName="ingreso" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Ocupacion_DimHotel" />
+          <xs:field xpath="id_dimHotel" />
+        </xs:unique>
+        <xs:unique name="Ocupacion_DimHuesped_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Ocupacion_DimHuesped" />
+          <xs:field xpath="id_dimhuesped" />
+        </xs:unique>
+        <xs:unique name="Ocupacion_Fac_TH_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Ocupacion_Fac_TH" />
+          <xs:field xpath="id_hotel" />
+          <xs:field xpath="id_huesped" />
+        </xs:unique>
+        <xs:keyref name="fk_id_hotel" refer="Constraint1">
+          <xs:selector xpath=".//Ocupacion_Fac_TH" />
+          <xs:field xpath="id_hotel" />
+        </xs:keyref>
+        <xs:keyref name="fk_id_huesped" refer="Ocupacion_DimHuesped_Constraint1">
+          <xs:selector xpath=".//Ocupacion_Fac_TH" />
+          <xs:field xpath="id_huesped" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Hotel_x0020_Ocu_x0020_DM xmlns="" />
+  </Schema>
+</DataSourceView>

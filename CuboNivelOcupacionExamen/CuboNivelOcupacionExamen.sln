@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CuboNivelOcupacionExamen", "CuboNivelOcupacionExamen\CuboNivelOcupacionExamen.dwproj", "{793DB7CC-88DB-4916-B21F-3EA60B6D323C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{793DB7CC-88DB-4916-B21F-3EA60B6D323C}.Development|Default.ActiveCfg = Development
+		{793DB7CC-88DB-4916-B21F-3EA60B6D323C}.Development|Default.Build.0 = Development
+		{793DB7CC-88DB-4916-B21F-3EA60B6D323C}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2BAB5AD-9CCA-40A3-8722-D60EA334168A}
+	EndGlobalSection
+EndGlobal

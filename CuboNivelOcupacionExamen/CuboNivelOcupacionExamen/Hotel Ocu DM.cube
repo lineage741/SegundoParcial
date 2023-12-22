@@ -1,0 +1,319 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="10748183-139b-4d4a-a849-9c834f31d32b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hotel Ocu DM</ID>
+  <Name>Hotel Ocu DM</Name>
+  <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4844" scrolltop="-1498" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18711" y="11091" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimHotel" left="-901" top="5512" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3239" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a70c00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Ocupacion_DimHotel" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimHuesped" left="6272" top="593" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3112" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000280c000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Ocupacion_DimHuesped" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fac_TH" left="-1229" top="-148" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3471" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008f0d0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Ocupacion_Fac_TH" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="206" top="2579" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="912" height="3433" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fk_id_hotel]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="718" y="5512" />
+              <point x="718" y="4153" />
+              <point x="506" y="4153" />
+              <point x="506" y="2879" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1942" top="515" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="4630" height="1081" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fk_id_huesped]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="10" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6272" y="1196" />
+              <point x="4067" y="1196" />
+              <point x="4067" y="815" />
+              <point x="2242" y="815" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4844</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1498</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1229</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-148</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="fc383b5d-7eac-41e1-b5e0-cb85a2ea7211">
+      <ID>Dim Huesped</ID>
+      <Name>Dim Huesped</Name>
+      <DimensionID>Dim Huesped</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="60c7c5c4-fed5-4e07-9201-e952227e8634">
+          <AttributeID>Id Dimhuesped</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f56fa4c-15fb-4105-910a-dfc4591a170d">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f6a2ef31-2e8c-4dc8-b0d7-a9bd18fe38dc">
+          <AttributeID>Genero</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cec24cbc-91a7-4d60-a202-97baa7b5d193">
+          <AttributeID>Edad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="daa9a70f-5dd0-4cf5-ac7d-d9e45fe196ad">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="af821c37-a89c-4ae5-a742-18a70ab4d84f">
+      <ID>Dim Hotel</ID>
+      <Name>Dim Hotel</Name>
+      <DimensionID>Dim Hotel</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="782f572f-e366-4936-a4a8-3857a822a300">
+          <AttributeID>Id Dim Hotel</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc529bca-32de-45b9-8808-9a33821ba455">
+          <AttributeID>Nombre Hotel</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf4f0ac7-80ed-41d1-ac22-02cd24aa969e">
+          <AttributeID>Nombre Area</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40ae1d99-fab1-4cc5-bae2-b13bb003860a">
+          <AttributeID>Numero Hab</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e036448-605b-4caa-a34e-709b8bda87b3">
+          <AttributeID>Nombre Tipo Hab</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b58a6b28-c6ab-4042-b819-f9c1c6c267e5">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d01351b0-9693-4f2f-bd33-8c9a45c9b99b">
+      <ID>Fac TH</ID>
+      <Name>Fac TH</Name>
+      <CreatedTimestamp>0001-01-01T04:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T04:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T04:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="2d0c51f4-d4a5-4c27-98f1-ce6a98209019">
+          <ID>Cant Dias Ocupado</ID>
+          <Name>Cant Dias Ocupado</Name>
+          <Source dwd:design-time-name="ba3907a6-ad69-4271-8be9-327bfd10c567">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5b534ca3-24d2-4bd1-8f94-f207ca8be406">
+              <TableID>Ocupacion_Fac_TH</TableID>
+              <ColumnID>cantDiasOcupado</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="674c5540-9f73-4020-8a98-be7017443c8b">
+          <ID>Cant Dias Total</ID>
+          <Name>Cant Dias Total</Name>
+          <Source dwd:design-time-name="5ffaf6e9-37fd-4ef0-a4da-aa3d53689e9a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="32b95f66-74d3-4f23-acb7-4ac708ca1dba">
+              <TableID>Ocupacion_Fac_TH</TableID>
+              <ColumnID>cantDiasTotal</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="17e4e442-12cb-4cb0-9742-1c6ae1fcab77">
+          <ID>Costo</ID>
+          <Name>Costo</Name>
+          <Source dwd:design-time-name="4f5b7830-7c16-4e82-a7f1-b99e54f1c268">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="580ed218-7cea-46b0-8366-b577e03f8cbf">
+              <TableID>Ocupacion_Fac_TH</TableID>
+              <ColumnID>costo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3032c3a7-a422-4b43-ab29-c2d98823db69">
+          <ID>Ingreso</ID>
+          <Name>Ingreso</Name>
+          <Source dwd:design-time-name="f6552008-110b-4e6f-8b89-e7ba38d1036e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="326b962c-40d0-4f2a-8f82-58058aee9b43">
+              <TableID>Ocupacion_Fac_TH</TableID>
+              <ColumnID>ingreso</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7cba13a3-ce33-4ca1-a8a4-4e24a258f4fe">
+          <ID>Recuento Fac TH</ID>
+          <Name>Recuento Fac TH</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="576fd684-cdcd-4656-bb0b-c2c2b55229cf">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="713b4389-72c0-4d86-a900-a2b92f9effbc">
+              <TableID>Ocupacion_Fac_TH</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="46889229-17d2-4fa4-a194-41722f351b67">
+          <CubeDimensionID>Dim Huesped</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9bf99ca1-b7aa-4466-a418-d85472deb995">
+              <AttributeID>Id Dimhuesped</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9b7a31b3-afdf-4f7c-9bce-021d27dc94e9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f981f8d7-fd65-41f3-9618-e5262198b0ac">
+                    <TableID>Ocupacion_Fac_TH</TableID>
+                    <ColumnID>id_huesped</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a494562e-3447-4a4e-af24-6d19ebab41d9">
+          <CubeDimensionID>Dim Hotel</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="60a9b15d-dbab-4784-8bb0-79d3bb60513a">
+              <AttributeID>Id Dim Hotel</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0a4c81cf-aa73-44b8-8eb5-f92928c7937e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="63f5f4da-3f42-4586-b43a-9916c408ea0e">
+                    <TableID>Ocupacion_Fac_TH</TableID>
+                    <ColumnID>id_hotel</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="13f1a1eb-e901-4dbb-8023-f08d8847c51c">
+    <DataSourceViewID>Hotel Ocu DM</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="36a6242c-923b-4f55-8927-9c5371edc45d">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+El comando CALCULATE controla la agregación de celdas hoja en el cubo.
+Si se elimina o modifica el comando CALCULATE, se ven afectados los datos del cubo.
+Solo debe editar este comando si especifica manualmente cómo se agrega el cubo.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].IngresosTotales
+ AS [Measures].[Ingreso], 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

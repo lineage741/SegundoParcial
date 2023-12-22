@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-V6R4TJ2F.Hotel_NivelOcupacion"
+  DTS:DTSID="{B68F7F82-5303-4B9B-B621-270AA23E252F}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=LAPTOP-V6R4TJ2F;Initial Catalog=Hotel_NivelOcupacion;Integrated Security=True;Application Name=SSIS-NivelOcupacionFaltante-{B68F7F82-5303-4B9B-B621-270AA23E252F}LAPTOP-V6R4TJ2F.Hotel_NivelOcupacion;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
